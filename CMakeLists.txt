@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.10)
+set(CMAKE_TOOLCHAIN_FILE gcc-11.1.cmake)
+project(Master-CPP20)
+
+add_subdirectory(Section2)

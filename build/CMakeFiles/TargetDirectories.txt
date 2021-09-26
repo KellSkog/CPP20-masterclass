@@ -1,0 +1,5 @@
+/home/kell/repos/CPP20-masterclass/build/CMakeFiles/rebuild_cache.dir
+/home/kell/repos/CPP20-masterclass/build/CMakeFiles/edit_cache.dir
+/home/kell/repos/CPP20-masterclass/build/Section2/CMakeFiles/rebuild_cache.dir
+/home/kell/repos/CPP20-masterclass/build/Section2/CMakeFiles/edit_cache.dir
+/home/kell/repos/CPP20-masterclass/build/Section2/CMakeFiles/section2.dir
