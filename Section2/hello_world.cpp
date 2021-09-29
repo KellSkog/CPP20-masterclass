@@ -1,5 +1,6 @@
 #include <iostream>
 
 int main() {
-    std::cout << "Howdy!" << std::endl;
+    auto result = (10 <=> 20) > 0;
+    std::cout << "Windows opened!" << result << std::endl;
 }
