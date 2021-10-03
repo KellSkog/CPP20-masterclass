@@ -1,6 +1,26 @@
 #include <iostream>
+#include <string_view>
+#include <utility>
 
-int main() {
+struct S
+{
+    std::string_view get()
+    {
+        return "Non-const";
+    }
+    std::string_view get() const
+    {
+        return "Const";
+    }
+};
+
+int main()
+{
     auto result = (10 <=> 20) > 0;
-    std::cout << "Windows opened!" << result << std::endl;
+    S s;
+    const S sc;
+    std::cout << const_cast<const S *>(&s)->get() << std::endl;
+    std::cout << const_cast<S &>(sc).get() << std::endl;
+    std::cout << static_cast<S>(sc).get() << std::endl;
+    std::cout << std::as_const(s).get() << std::endl;
 }
