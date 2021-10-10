@@ -16,7 +16,7 @@ struct S
 
 int main()
 {
-    auto result = (10 <=> 20) > 0;
+    [[maybe_unused]] auto result = (10 <=> 20) > 0;
     S s;
     const S sc;
     std::cout << const_cast<const S *>(&s)->get() << std::endl;

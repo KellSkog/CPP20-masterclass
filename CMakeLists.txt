@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.10)
 set(CMAKE_TOOLCHAIN_FILE gcc-11.1.cmake)
 project(Master-CPP20)
 
+add_compile_options(-Wall -Wextra -pedantic -Werror)
 add_subdirectory(Section2)
 add_subdirectory(Section3)
 add_subdirectory(Section5)
