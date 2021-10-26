@@ -397,6 +397,22 @@ void printTheDay(int day)
     else
         std::cout << "You're out of reach!\n";
 }
+#include <vector>
+template <typename T>
+int distance(std::vector<T> &r)
+{
+    int sum = 0;
+    std::sort(r.begin(), r.end(), [](int a, int b)
+              { return a < b; });
+    for (unsigned i = 0; i < r.size() - 1; i++)
+    {
+        for (unsigned j = 1; j < r.size() - 1; j++)
+        {
+            sum += (r[j] - r[i]);
+        }
+    }
+    return sum;
+}
 int main()
 {
     std::cout << "Section 10\n";
@@ -422,5 +438,7 @@ int main()
     // Assignment_5();
     // Assignment_6();
     // Assignment_7();
-    Assignment_8();
+    // Assignment_8();
+    std::vector<int> p{1, 4, 5, 1, 5, 3};
+    std::cout << distance(p) << "\n";
 }
