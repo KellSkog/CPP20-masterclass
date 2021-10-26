@@ -43,6 +43,9 @@ void exercise_printUppercase()
 
 void comma_operator_85()
 {
+    auto a{2}, b{3}, c{5};
+    auto i = (a++, b++, ++c);
+    std::cout << "Last evaluation resulted in: " << i << "\n";
 }
 
 int main()
