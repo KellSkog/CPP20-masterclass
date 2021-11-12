@@ -297,7 +297,7 @@ void exercise_17()
 
 int main()
 {
-    std::cout << "Section 13\n";
+    std::cout << "Section 13: Pointers\n";
     // DeclaringAndUsingPointers_110();
     // PointerTochar_111();
     // ArraysOfPointerToChar_112();

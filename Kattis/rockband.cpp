@@ -37,7 +37,7 @@ std::tuple<unsigned, unsigned> scanInput(std::vector<std::vector<int>> &matrix)
 int main()
 {
     std::vector<std::vector<int>> matrix;
-    auto [nrows, ncols] = scanInput(matrix);
+    [[maybe_unused]] auto [nrows, ncols] = scanInput(matrix);
     // for (unsigned i = 0; i < nrows; ++i)
     // {
     //     for (unsigned j = 0; j < ncols; ++j)

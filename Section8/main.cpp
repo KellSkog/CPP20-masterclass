@@ -120,7 +120,7 @@ void packingColorInformation_65()
 
 int main()
 {
-    std::cout << "Section 8\n";
+    std::cout << "Section 8: Bitwise Operators\n";
 
     // implicitDataConversion_54();
     // explicitDataConversion_55();

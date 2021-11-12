@@ -68,6 +68,7 @@ void assignment1()
 }
 int main()
 {
+    std::cout << "Section 3: Diving In\n";
     // constexpr int count = 10;
     // printNameRepeat(myName, count);
     // printStuff();

@@ -48,6 +48,7 @@ constinit int initialized = 0;                         // Not const
 // constexpr constinit int bad = 0;
 int main()
 {
+    std::cout << "Section 6: Literals and Constants\n";
     // constinit int initialized = 0; // 'constinit' is only valid for declarations of variables with static or thread storage duration
     initialized = 3;
     // initialized2 = 3; // error: assignment of read-only variable ‘initialized2’

@@ -334,7 +334,7 @@ void Assignment_10()
 
 int main()
 {
-    std::cout << "Section 12!\n";
+    std::cout << "Section 12: Arrays\n";
 
     // DeclaringAndUsingarrays_99();
     // ExerciseEliminatingDuplicates10();

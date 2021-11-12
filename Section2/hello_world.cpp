@@ -16,6 +16,7 @@ struct S
 
 int main()
 {
+    std::cout << "Section 2: Development Environment Installation & Setup\n";
     [[maybe_unused]] auto result = (10 <=> 20) > 0;
     S s;
     const S sc;

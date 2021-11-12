@@ -182,7 +182,7 @@ void ConstevalFunctions_179()
 
 int main()
 {
-    std::cout << "Section 16\n";
+    std::cout << "Section 16: Functions\n";
     // Exercise_25();
     // Exercise_26();
     // Exercise_27();

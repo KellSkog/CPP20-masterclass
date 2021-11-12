@@ -328,7 +328,7 @@ void assignment_year_calendar()
 
 int main()
 {
-    std::cout << "Section 11, size_t is " << sizeof(size_t) << " Bytes\n";
+    std::cout << "Section 11: Loops, size_t is " << sizeof(size_t) << " Bytes\n";
 
     // for_loop_83();
     // exercise_sum_up_to(3);

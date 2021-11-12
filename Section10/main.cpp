@@ -415,7 +415,7 @@ int distance(std::vector<T> &r)
 }
 int main()
 {
-    std::cout << "Section 10\n";
+    std::cout << "Section 11: Loops\n";
     // ifStatement_70(Colors::RED);
     // ifStatement_70(Colors::BLUE);
     // ifStatement_70b(Colors::RED);

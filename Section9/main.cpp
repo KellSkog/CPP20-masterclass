@@ -41,7 +41,7 @@ int *variableLifetime_67()
 
 int main()
 {
-    std::cout << "Section 9\n";
+    std::cout << "Section 9: Variable Lifetime and Scope\n";
 
     delete variableLifetime_67(); // dynamicStorage is deleted
 }
