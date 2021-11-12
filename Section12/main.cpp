@@ -297,7 +297,7 @@ void Assignment_10()
         int oper1{std::rand() % 200};
         int oper2{std::rand() % 200};
         int op{std::rand() % 4};
-        int result;
+        int result{};
         switch (op)
         {
         case 0:

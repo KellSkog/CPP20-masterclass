@@ -64,7 +64,7 @@ void PointersAndArrays_115()
 int *maximum_address(int data[], unsigned int size)
 {
 
-    int *max_address;
+    int *max_address{nullptr};
 
     //Don't modify anything above this line
     //Your code will go below this line
@@ -122,7 +122,7 @@ void PointerArithmeticDistanceBetweenElements_119()
 int *minimum_address(int data[], unsigned int size)
 {
 
-    int *min_address;
+    int *min_address{nullptr};
 
     // Don't modify anything above this line
     //Your code should go below this line
