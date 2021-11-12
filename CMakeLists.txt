@@ -20,3 +20,13 @@ add_subdirectory(Section15)
 add_subdirectory(Section16)
 add_subdirectory(Section17)
 add_subdirectory(Section18)
+add_subdirectory(Section19)
+
+# add_custom_command(
+#         TARGET foo POST_BUILD
+#         COMMAND ${CMAKE_COMMAND} -E copy
+#                 ${CMAKE_SOURCE_DIR}/test/input.txt
+#                 ${CMAKE_CURRENT_BINARY_DIR}/input.txt)
+
+#I want to add "cmake add SectionN" which creates the SectionN folder,
+# Copies exercise files and main.cpp to it
