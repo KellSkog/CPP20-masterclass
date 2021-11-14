@@ -23,6 +23,7 @@ add_subdirectory(Section18)
 add_subdirectory(Section19)
 add_subdirectory(Section20)
 add_subdirectory(Section21)
+add_subdirectory(Section22)
 
 # add_custom_command(
 #         TARGET foo POST_BUILD
