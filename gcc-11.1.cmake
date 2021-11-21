@@ -6,5 +6,7 @@
 #SET(CMAKE_SYSTEM_VERSION 1)
 
 # specify the compiler
-SET(CMAKE_C_COMPILER   /usr/local/gcc-11.1.0/bin/gcc-11.1)
-SET(CMAKE_CXX_COMPILER /usr/local/gcc-11.1.0/bin/g++-11.1)
+#SET(CMAKE_C_COMPILER   /usr/local/gcc-11.1.0/bin/gcc-11.1)
+# SET(CMAKE_CXX_COMPILER /usr/local/gcc-11.1.0/bin/g++-11.1)
+SET(CMAKE_C_COMPILER   /usr/bin/gcc-11)
+SET(CMAKE_CXX_COMPILER  /usr/bin/g++-11)
